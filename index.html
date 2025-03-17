@@ -1,111 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hamzsite</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio Website</title>
+</head>
+<body>
     <header>
-        <div class="navigasi">
-          <div class="logo">
-            <h2>biodata</h2>
-          </div>
-
-          <div class="menu">
-            <nav>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#About">About</a></li>
-              <li><a href="#Skill">Skill</a></li>
-              <li><a href="#Contact">Contact</a></li>
-              <li><a href="#Pipas">Pipas</a></li>
-            </nav>
-
-            <a href="sejarah.html" target="_blank" class="HISTORY">Sejarah</a>
-            
-
-            </ul>
-          </div>
-        </div>
+        <a href="#" class="logo">Hamzah.</a>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Skills</a>
+                <div class="dropdown-content">
+                    <a href="#">Skill</a>
+                    <a href="Project1.html">Project 1</a>
+                </div>
+            </div>
+            <a href="pipas.html">Pipas</a>
+            <a href="sunda.html">Sunda</a> 
+            <a href="sejarah.html">Sejarah</a>
+        </nav>
     </header>
-      
-    <section id="home" class="home">
-      <div class="container-home">
-        <img src="WIN_20241010_09_00_44_Pro.jpg" alt="">
-        <h1>Selamat datang di <br> <span>Website Saya !</span>  </h1>
-     </section>
-
-    <section id="About" class="About">
-      <div class="container-About">
-        <div class="gambar">
-          <img src="gambar.jpg" alt="">
-        </div>
-      <h1>About</h1>
-      <p>Hallo! perkenalkan nama saya Muhammad Hamzah Saputra, saya adalah seorang Web Developer, dan saya adalah seorang calon developer yang penuh semangat dan dedikasi. Saya memiliki minat yang mendalam dalam dunia teknologi dan pemrograman, serta berkomitmen untuk terus belajar dan berkembang dalam bidang ini.</p>
-    </div>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Profile Picture">
+        </div> 
+        <div class="home-content">
+            <h1>Hi, it's <span>Hamzah</span></h1>
+            <h3 class="typing-text">I'm <span class="typing"></span></h3>
+            <h4>As a web developer, I am passionate about creating user-friendly and innovative web solutions. With a strong foundation in HTML, CSS, and JavaScript, I am dedicated to continuously improving my skills.</h4>
+            <div class="social-icons">
+                <a href="https://wa.me/6285882157860"><i class='bx bxl-whatsapp-square'></i></a>
+                <a href="https://www.instagram.com/reel/DCyFLTZRFmwCdSEm5Pg9nvVugp1YYdna8amhbM0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram'></i></a> 
+                <a href="https://www.tiktok.com/@unkunaon?is_from_webapp=1&sender_device=pc"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <a href="https://github.com/Mhamzahsaputra" class="btn">Hire me</a>
+        </div> 
     </section>
 
-    <section id="Skill">
-      <div class="h1">
-        <h1>my Skill</h1>
-           <div class="container">
-           <div class="gambar2">
-            <img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-html-5-icon.png" alt="">
-         <img src="https://img.icons8.com/fluent/512/css3.png" alt="">
-      <img src="" alt="">
-        
-       <div class="certificate"></div>
-          <div class="gambar3">
-             <img src="Screenshot 2025-01-09 102810.png" alt="">
-             <img src="Screenshot 2025-01-03 100812.png" alt="">
-         </div>
-      </section>
-      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="script.js"></script>
 
-    <section id="Contact">
-       <div class="h22">
-       <h2>my contact</h2>
-    </div>
-  
-    <div class="gambar4">
-    <a href=" https://wa.me/6285882157860" target="_blank"><img src="whatsapp.png" alt=""></a>
-    </div>
+    <footer>
+        <h4>&copy;2025 Muhammad Hamzah Saputra - Semua Hak Dilindungi</h4>
+    </footer>
 
-    <div class="gambar5">
-       <a href="https://www.instagram.com/reel/DCyFLTZRFmwCdSEm5Pg9nvVugp1YYdna8amhbM0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"><img src="instagram.png" alt=""></a>
-       </div>
-   </section>
-
-   <section id="Pipas">
-    <div class="content">
-     <h1>Observasi Tauran</h1>
-          <p>Observasi tauran adalah proses pengamatan dan analisis terhadap perilaku dan interaksi yang terjadi dalam suatu kelompok atau komunitas. Observasi ini bertujuan untuk memahami dinamika sosial, pola komunikasi, dan faktor-faktor yang mempengaruhi hubungan antar individu dalam kelompok tersebut.</p> 
-      <h2>Metode Observasi</h2> 
-         <p>Dalam observasi tauran, peneliti biasanya menggunakan berbagai metode seperti:</p> 
-         <ul> 
-           <li><strong>Wawancara:</strong> Mengumpulkan informasi langsung dari anggota kelompok melalui pertanyaan yang terstruktur atau semi-terstruktur.</li> <li><strong>Survei:</strong> Menggunakan kuesioner untuk mendapatkan data dari sejumlah besar responden.</li> 
-           <li><strong>Pengamatan Langsung:</strong> Mengamati perilaku dan interaksi anggota kelompok secara langsung tanpa intervensi.</li> 
-         </ul> 
-      <h2>Analisis Data</h2> 
-         <p>Data yang diperoleh dari observasi kemudian dianalisis untuk mengidentifikasi tren, pola, dan hubungan yang ada dalam kelompok tersebut. Analisis ini dapat dilakukan dengan berbagai teknik, termasuk analisis statistik dan analisis kualitatif.</p> 
-      <h2>Hasil Observasi</h2> 
-         <p>Hasil dari observasi tauran dapat digunakan untuk berbagai tujuan, termasuk:</p> 
-         <ul> 
-            <li><strong>Pengembangan Program Intervensi:</strong> Membuat program yang bertujuan untuk meningkatkan dinamika kelompok dan komunikasi antar anggota.</li> 
-            <li><strong>Peningkatan Komunikasi:</strong> Mengidentifikasi hambatan komunikasi dan mencari solusi untuk meningkatkan interaksi antar anggota kelompok.</li> 
-            <li><strong>Pemahaman Dinamika Sosial:</strong> Memahami faktor-faktor yang mempengaruhi hubungan antar individu dalam kelompok tertentu.</li> 
-       </ul> 
-      <h2>Kesimpulan</h2> 
-         <p>Observasi tauran adalah alat yang penting dalam memahami dinamika sosial dan interaksi dalam kelompok. Dengan menggunakan berbagai metode pengumpulan data dan analisis, peneliti dapat memperoleh wawasan yang berharga tentang perilaku dan hubungan dalam komunitas tertentu.</p>
-    </div>
-   </section>
-
-
-
-      <footer>
-        <p>&copy;2024 Muhammad Hamzah Saputra - Semua Hak Dilindungi</p>
-      </footer>
-    </body>
-    </html>
+</body>
+</html>
